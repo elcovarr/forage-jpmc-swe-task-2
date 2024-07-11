@@ -52,8 +52,7 @@ class App extends Component<{}, IState> {
         });
       });
       x++;
-      if (x > 10) {
-        console.log("x has gone 10 times! stop please :(\n");
+      if (x > 1000) {
         clearInterval(interval);
       }
     }, 100);
